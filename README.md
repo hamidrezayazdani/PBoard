@@ -27,6 +27,7 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 
 ❔How does it work?
+
 1️⃣ First, add the JS and CSS file to your web page.
 
 2️⃣ Add a `data-pkeyboard` property to each of the inputs you need the virtual keyboard to be enabled for.
