@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="height=device-height,
+                      width=device-width, initial-scale=1.0,
+                      minimum-scale=1.0, maximum-scale=5">
+<title>Persian Keyboard</title>
+<link rel="stylesheet" href="pboard.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <input type="text" maxlength="4" placeholder="Type here..." data-pkeyboard>
+    <input type="number" placeholder="Type here..." data-pkeyboard>
+
+
+<script src="pboard.js"></script> <!-- Link to your JavaScript file -->
+<script>
+       document.querySelector('input').addEventListener('keydown',function(e){
+        console.log(555555)
+       })
+       document.querySelector('input').addEventListener('keypress',function(e){
+        console.log(6666)
+       })
+       document.querySelector('input').addEventListener('keyup',function(e){
+        console.log(7777)
+       })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+/**
+ * pKeyboard style
+ * 
+ * Icons by: https://iconmonstr.com/
+ */
+#pkeyboard-container {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+	z-index: 99999;
+	background: #fff;
+}
+
+.pK.pKLine {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.pK.pKKey,
+.pK.pKFunction {
+	font-weight: bold;
+	font-size: 34px;
+	display: inline-block;
+	border-radius: 6px;
+	border: 1px solid lightgray;
+	background-color: #fff;
+	color: #000;
+	margin: 5px 8px;
+	padding: 0 15px;
+	min-width: 70px;
+	height: 70px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 55px;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: 0;
+}
+
+@media (max-width:480px) {
+	.pK.pKKey,
+	.pK.pKFunction {
+		font-size: 15px;
+		margin: 0 1px;
+		padding: 0 5px;
+		min-width: 32px;
+		height: 38px;
+		line-height: 30px;
+	}
+}
+
+.pK.pKey-backspace {
+	width: 75px;
+	background: url('data:image/svg+xml;charset=UTF-8,<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 6c0-.552-.448-1-1-1h-12.628c-.437 0-.853.191-1.138.523-1.078 1.256-3.811 4.439-4.993 5.815-.16.187-.241.419-.241.651 0 .231.08.463.24.651 1.181 1.38 3.915 4.575 4.994 5.835.285.333.701.525 1.14.525h12.626c.552 0 1-.448 1-1 0-2.577 0-9.423 0-12zm-13.628.5h12.128v11h-12.126l-4.715-5.51zm5.637 4.427 1.71-1.71c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.384-.219.531l-1.711 1.711 1.728 1.728c.147.147.22.339.22.53 0 .427-.349.751-.75.751-.192 0-.384-.073-.531-.219l-1.728-1.729-1.728 1.729c-.146.146-.339.219-.531.219-.401 0-.75-.324-.75-.751 0-.191.073-.383.22-.53l1.728-1.728-1.788-1.787c-.146-.148-.219-.339-.219-.532 0-.425.346-.749.751-.749.192 0 .384.073.53.219z" fill-rule="nonzero"/></svg>') no-repeat center center;
+	color: transparent;
+	background-size: 24px 24px;
+}
+
+.pK.pKey-clear {
+	width: 75px;
+	background: url('data:image/svg+xml;charset=UTF-8,<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.015 5.494h-.253c-.413 0-.747-.335-.747-.747s.334-.747.747-.747h5.253v-1c0-.535.474-1 1-1h4c.526 0 1 .465 1 1v1h5.254c.412 0 .746.335.746.747s-.334.747-.746.747h-.254v15.435c0 .591-.448 1.071-1 1.071-2.873 0-11.127 0-14 0-.552 0-1-.48-1-1.071zm14.5 0h-13v15.006h13zm-4.25 2.506c-.414 0-.75.336-.75.75v8.5c0 .414.336.75.75.75s.75-.336.75-.75v-8.5c0-.414-.336-.75-.75-.75zm-4.5 0c-.414 0-.75.336-.75.75v8.5c0 .414.336.75.75.75s.75-.336.75-.75v-8.5c0-.414-.336-.75-.75-.75zm3.75-4v-.5h-3v.5z" fill-rule="nonzero"/></svg>') no-repeat center center;
+	color: transparent;
+	background-size: 24px 24px;
+}
+
+.pK.pKey-shift {
+	width: 110px;
+	background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 9h-6l8-9 8 9h-6v11h-4v-11zm11 11v2h-18v-2h-2v4h22v-4h-2z"/></svg>') no-repeat center center;
+	color: transparent;
+	background-size: 24px 24px;
+}
+
+.pK.pKey-space {
+	width: 400px;
+}
+
+.pK.pKey-return {
+	position: relative;
+	width: 170px;
+	animation: none !important;
+	color: #fff;
+	overflow: hidden;
+	background-color: #383736;
+	z-index: 1;
+	transition: 0.07s ease-in;
+	-o-transition: 0.07s ease-in;
+	-ms-transition: 0.07s ease-in;
+	-moz-transition: 0.07s ease-in;
+	-webkit-transition: 0.07s ease-in;
+}
+
+.pK.pKey-return:active {
+	color: #383736;
+}
+
+.pK.pKey-return:before {
+	color: #383736;
+	content: "";
+	position: absolute;
+	background-color: #fff;
+	bottom: 0;
+	left: 0;
+	right: 100%;
+	top: 0;
+	z-index: -1;
+	transition: right 0.07s ease-in;
+}
+
+.pK.pKey-return:active:before {
+	right: 0;
+}
+
+/* DARK THEME */
+
+.dark .pK.pKKey,
+.pK.pKFunction {
+	color: #fff;
+	background-color: #bbb;
+	border-color: #A7A4A4;
+}
+
+.dark .pK.pKey-backspace {
+	background-image: url("images/dark/delete.svg");
+}
+
+.dark .pK.pKey-shift {
+	background-image: url("images/dark/shift.svg");
+}
+
+.dark .pK.pKey-return {
+	background-color: #767676;
+}
