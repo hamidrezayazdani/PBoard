@@ -26,7 +26,7 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 
 
-❔How does it work?
+❔ How does it work?
 
 	1️⃣ First, add the JS and CSS file to your web page.
 
@@ -37,3 +37,5 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 
 😍 Now with the focus of each input, the keyboard corresponding to that input will be displayed.
+
+[Demo](https://hamidrezayazdani.github.io/PBoard/)
