@@ -1,4 +1,4 @@
-PKeyboard is a Persian virtual keyboard.
+**PKeyboard** is a Persian virtual keyboard.
 
 I needed a Farsi (Persian) virtual keyboard in one of my projects that was running on a PDA.
 
@@ -6,21 +6,21 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 🔥 Features of PKeyboard:
 
-  ✅ Light, simple and beautiful
+	✅ Light, simple and beautiful
   
-  ✅ Create responsive virtual keyboard with JS
+	✅ Create responsive virtual keyboard with JS
   
-  ✅ Keyboard display based on input type and inputmode
+	✅ Keyboard display based on input type and inputmode
   
-  ✅ Has a shift key function
+	✅ Has a shift key function
   
-  ✅ Has the function of the Enter key
+  	✅ Has the function of the Enter key
   
-  ✅ Clear button function
+  	✅ Clear button function
   
-  ✅ Respect maxlength
+  	✅ Respect maxlength
   
-  ✅ Compliant with numeric input type behavior
+  	✅ Compliant with numeric input type behavior
 
   
 
@@ -28,11 +28,11 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 ❔How does it work?
 
-1️⃣ First, add the JS and CSS file to your web page.
+	1️⃣ First, add the JS and CSS file to your web page.
 
-2️⃣ Add a `data-pkeyboard` property to each of the inputs you need the virtual keyboard to be enabled for.
+	2️⃣ Add a `data-pkeyboard` property to each of the inputs you need the virtual keyboard to be enabled for.
 
-3️⃣ Done!
+	3️⃣ Done!
 
 
 
