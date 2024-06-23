@@ -76,7 +76,8 @@ const pKeyboard_config = {
             '9': { name: '9', text: '9', class: 'pKKey' },
         },
         {
-            'clear': { name: 'clear', text: '', class: 'pKFunction' }
+            'clear': { name: 'clear', text: '', class: 'pKFunction' },
+            'return': { name: 'return', text: 'Enter', class: 'pKFunction' },
         }
     ],
     layout_tel: [
