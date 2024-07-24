@@ -6,7 +6,7 @@ I needed a Farsi (Persian) virtual keyboard in one of my projects that was runni
 
 🔥 Features of PKeyboard:
 
-	✅ Light, simple and beautiful
+	✅ Light-weight, simple and beautiful
   
 	✅ Create responsive virtual keyboard with JS
   
